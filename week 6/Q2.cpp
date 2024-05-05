@@ -49,9 +49,9 @@ int main()
     
     if(res==1)
     {
-        cout<<"true";
+        cout<<"Yes bipartite";
     }
     else 
-      cout<<"false";
+      cout<<"Not bipartite";
 
 }
