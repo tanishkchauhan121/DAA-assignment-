@@ -55,7 +55,7 @@ int main()
     int src;
     cout<<"Enter source";
     cin>>src;
-    bool res = dfs(adj,src,v);
+    bool res = iscycle(adj,src,v);
     if(res==1)
        cout<<"Yes cycle exist";
     else
