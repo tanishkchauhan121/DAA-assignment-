@@ -15,13 +15,12 @@ void dfs(vector<vector<int>> &adj,int src,int des,int v)
         return;
     }
   s.pop();
+  vis[node]=1;
   for(auto it:adj[node]){
     if(!vis[it]){
         s.push(it);
-        vis[it]=1;
         
-
-    }
+        }
   }
   }
   if(flag==0)
